@@ -3,8 +3,8 @@
 
 import { useState, useEffect } from 'react';
 import initialData from './lib/data.json';
-import Comment from '@/component/comment';
-import NewCommentForm from '@/component/NewCommentForm';
+import Comment from '@/app/component/comment';
+import NewCommentForm from '@/app/component/NewCommentForm';
 import { rubik } from '@/app/fonts';
 import { CommentData, User } from '@/app/lib/types';
 
